@@ -1,4 +1,4 @@
-// This file is the entry point for the React VR app.
+// This file is the entry point for the React VR application.
 // See https://facebook.github.io/react-vr/docs/project-configuration.html
 import React from 'react'
 import {
