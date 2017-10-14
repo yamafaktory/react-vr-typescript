@@ -20,13 +20,13 @@ export default function Intro (): JSX.Element {
           paddingRight: 0.2,
           textAlign: 'center',
           textAlignVertical: 'center',
-          transform: [{translate: [0, 0, -3]}],
+          transform: [{translate: [0, 0, -4]}],
         }}>
         React VR
       </Text>
       <Text
         style={{
-          color: '#0000cc',
+          color: '#314F7C',
           backgroundColor: '#777879',
           fontSize: 0.8,
           fontWeight: '400',
@@ -35,7 +35,7 @@ export default function Intro (): JSX.Element {
           paddingRight: 0.2,
           textAlign: 'center',
           textAlignVertical: 'center',
-          transform: [{translate: [0, 0, -3]}],
+          transform: [{translate: [0, 0, -4]}],
         }}>
         powered by TypeScript!
       </Text>
