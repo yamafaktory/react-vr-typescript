@@ -1,0 +1,60 @@
+{
+  "name": "react_vr_typescript",
+  "version": "0.0.1",
+  "title": "react-vr-typescript",
+  "description": "A simple boilerplate to create React VR applications with TypeScript.",
+  "keywords": [
+    "React",
+    "React VR",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/yamafaktory/react-vr-typescript",
+  "author": {
+    "name": "Davy Duperron",
+    "url": "https://github.com/yamafaktory"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yamafaktory/react-vr-typescript"
+  },
+  "scripts": {
+    "bundle": "node node_modules/react-vr/scripts/bundle.js",
+    "devtools": "react-devtools",
+    "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
+    "prettier": "prettier --no-semi --single-quote --trailing-comma es5 --write",
+    "start": "node -e \"console.log('open browser at http://localhost:8081/vr/\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ovrui": "2.0.0",
+    "react-native": "0.48.0",
+    "react-vr-web": "2.0.0",
+    "react-vr": "2.0.0",
+    "react": "16.0.0",
+    "three": "0.87.0"
+  },
+  "devDependencies": {
+    "@types/jest": "21.1.2",
+    "@types/react-native": "0.48.10",
+    "@types/react-test-renderer": "16.0.0",
+    "@types/react": "16.0.10",
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-devtools": "2.5.2",
+    "react-native-typescript-transformer": "1.1.4",
+    "react-test-renderer": "16.0.0",
+    "typescript": "2.5.3",
+    "xopen": "1.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "yarn prettier",
+      "git add"
+    ]
+  },
+  "jest": {
+    "preset": "react-vr"
+  }
+}
