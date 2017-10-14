@@ -22,6 +22,7 @@
     "bundle": "node node_modules/react-vr/scripts/bundle.js",
     "devtools": "react-devtools",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
+    "precommit": "lint-staged",
     "prettier": "prettier --no-semi --single-quote --trailing-comma es5 --write",
     "start": "node -e \"console.log('open browser at http://localhost:8081/vr/\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"

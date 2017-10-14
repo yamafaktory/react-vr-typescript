@@ -1,5 +1,5 @@
-const path = require("path");
-const blacklist = require("metro-bundler/src/blacklist");
+const path = require('path')
+const blacklist = require('metro-bundler/src/blacklist')
 
 const config = {
   getProjectRoots() {
@@ -7,36 +7,36 @@ const config = {
   },
 
   getBlacklistRE() {
-    return blacklist([]);
+    return blacklist([])
   },
 
   getAssetExts() {
-    return ["obj", "mtl"];
+    return ['obj', 'mtl']
   },
 
   getPlatforms() {
-    return ["vr"];
+    return ['vr']
   },
 
   getProvidesModuleNodeModules() {
-    return ["react-native", "react-vr"];
+    return ['react-native', 'react-vr']
   },
 
   getTransformModulePath() {
-    return require.resolve("react-native-typescript-transformer");
+    return require.resolve('react-native-typescript-transformer')
   },
 
   getSourceExts() {
-    return ["ts", "tsx"];
-  }
-};
-
-function getRoots() {
-  const root = process.env.REACT_NATIVE_APP_ROOT;
-
-  if (root) return [path.resolve(root)];
-
-  return [path.resolve(__dirname)];
+    return ['ts', 'tsx']
+  },
 }
 
-module.exports = config;
+function getRoots() {
+  const root = process.env.REACT_NATIVE_APP_ROOT
+
+  if (root) return [path.resolve(root)]
+
+  return [path.resolve(__dirname)]
+}
+
+module.exports = config
