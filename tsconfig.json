@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
     "noEmit": true,

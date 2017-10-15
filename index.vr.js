@@ -6,14 +6,12 @@ import { AppRegistry, View } from 'react-vr'
 // Now import a TypeScript file!
 import Intro from './ts/Intro'
 
-export default class react_vr_typescript extends React.Component {
-  render() {
-    return (
-      <View>
-        <Intro />
-      </View>
-    )
-  }
+export default function react_vr_typescript() {
+  return (
+    <View>
+      <Intro />
+    </View>
+  )
 }
 
 AppRegistry.registerComponent('react_vr_typescript', () => react_vr_typescript)
