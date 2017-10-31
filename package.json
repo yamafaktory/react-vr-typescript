@@ -51,7 +51,7 @@
     "react-devtools": "2.5.2",
     "react-native-typescript-transformer": "1.1.4",
     "react-test-renderer": "16.0.0",
-    "typescript": "2.5.3",
+    "typescript": "2.6.1",
     "xopen": "1.0.0"
   },
   "lint-staged": {
