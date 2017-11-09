@@ -50,7 +50,7 @@
     "prettier": "1.7.4",
     "react-devtools": "2.5.2",
     "react-native-typescript-transformer": "1.1.4",
-    "react-test-renderer": "16.0.0",
+    "react-test-renderer": "16.1.0",
     "typescript": "2.5.3",
     "xopen": "1.0.0"
   },
