@@ -1,4 +1,4 @@
-# react-vr-typescript [![Build Status](https://travis-ci.org/yamafaktory/react-vr-typescript.svg?branch=master)](https://travis-ci.org/yamafaktory/react-vr-typescript) [![npm version](https://img.shields.io/npm/v/react-vr-typescript.svg?style=flat)](https://www.npmjs.com/package/shrimpit) [![Greenkeeper badge](https://badges.greenkeeper.io/yamafaktory/react-vr-typescript.svg)](https://greenkeeper.io/)
+# react-vr-typescript [![Build Status](https://travis-ci.org/yamafaktory/react-vr-typescript.svg?branch=master)](https://travis-ci.org/yamafaktory/react-vr-typescript) [![npm version](https://img.shields.io/npm/v/react-vr-typescript.svg?style=flat)](https://www.npmjs.com/package/shrimpit) 
 
 Create amazing 360 and VR content using React & TypeScript
 
