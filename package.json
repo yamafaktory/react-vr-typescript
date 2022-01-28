@@ -35,7 +35,7 @@
     "react-native": "0.48.0",
     "react-vr": "2.0.0",
     "react-vr-web": "2.0.0",
-    "three": "0.87.1"
+    "three": "0.137.4"
   },
   "devDependencies": {
     "@types/jest": "21.1.2",
